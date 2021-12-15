@@ -1,0 +1,26 @@
+{
+  "name" : "Beautify Student Center",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "description" : "Beautifies Cornell's Student Center",
+  "content_scripts" : [
+      {
+          "js" : ["init.js"],
+          "css": ["styles.css"],
+          "matches" : ["*://css.adminapps.cornell.edu/*"],
+          "all_frames": true
+      }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "Ctrl+E": {
+        "suggested_key": {
+            "default": "Ctrl+E",
+            "mac": "Command+E"
+        },
+        "description": "Ctrl+E."
+    }
+  }
+}
