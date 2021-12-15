@@ -1,0 +1,141 @@
+.PATRANSACTIONTITLE {
+  display: none !important;
+}
+
+.ps_pagecontainer {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+#ACE_DERIVED_SSS_SCL_SSS_GO_4 {
+  display: none !important;
+}
+
+.PTCOLLAPSE_ARROW {
+  display: none !important;
+}
+
+.PSGROUPBOXLABEL {
+  color: #424242 !important;
+  background: #ffffff !important;
+  border: none !important;
+}
+
+/* prevent a element height clipping */
+table td > div {
+  min-height: 30px !important;
+}
+
+/* remove right arrow */
+img[width="12"] {
+  display: none !important;
+}
+
+/* remove top empty space */
+#win0divDERIVED_SSS_SCL_TITLE1 {
+  display: none !important;
+}
+
+/* style cards */
+table[id$="ICField279"] #win0divDERIVED_SSS_SCL_SS_ACAD_INFO_LINK,
+table[id$="ICField279"] #win0divDERIVED_SSS_SCL_SS_MNG_FIN_LINK,
+table[id$="ICField279"] #win0divDERIVED_SSS_SCL_SSS_PERSONAL_INFO,
+table[id$="ICField53"] > tbody > tr > td > div {
+  background: #ffffff !important;
+  padding: 0.5rem !important;
+  margin: 0.5rem !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* RHS column table */
+/* TODO: remove first column in all table rows */
+
+table[id$="ICField53"] > tbody > tr:nth-of-type(1),
+table[id$="ICField53"] > tbody > tr:nth-of-type(2),
+table[id$="ICField53"] > tbody > tr:nth-of-type(3) {
+  display: none !important;
+}
+
+table[id$="ICField53"] .PSGROUPBOXWBO {
+  border: none !important;
+}
+
+table[id$="ICField53"] .PSGROUPBOXLABEL div {
+  font-size: 1.2rem !important;
+}
+
+table[id$="ICField53"] .PSLEVEL1SCROLLAREAHEADER {
+  display: none !important;
+}
+
+#ACE_DERIVED_SSS_SCL_SSS_SC_LNK3_NAME tr td:first-of-type {
+  width: 10 !important;
+}
+
+/* academics section */
+table[id$="ICField279"] #win0divDERIVED_SSS_SCL_SS_ACAD_INFO_LINKGP,
+table[id$="ICField279"] #win0divDERIVED_SSS_SCL_SS_MNG_FIN_LINKGP,
+table[id$="ICField279"] #win0divDERIVED_SSS_SCL_SSS_PERSONAL_INFOGP {
+  font-size: 2.2rem !important;
+}
+
+table[id$="ICField279"] #win0divDERIVED_SSS_SCL_GROUP1 {
+  display: none !important;
+}
+
+table[id$="ICField279"] table[id$="ICField281"] {
+  display: none !important;
+}
+
+/* academics calendar */
+table[id$="ICField130"] > tbody > tr > td > div[id^="win0divSTDNT_WEEK_SCHD"] {
+  border: 2px solid #eeeeee !important;
+  border-radius: 8px !important;
+  padding: 1rem !important;
+  width: 350px !important;
+}
+
+table[id$="ICField130"] table {
+  width: 100% !important;
+  border: none !important;
+}
+
+table[id$="ICField130"] > tbody > tr:nth-of-type(1),
+table[id$="ICField130"] > tbody > tr:nth-of-type(2),
+table[id$="ICField130"] > tbody > tr:nth-of-type(3) {
+  display: none !important;
+}
+
+table[id$="ICField130"] div[id^="win0divSTDNT_WEEK_SCHDGP"] {
+  color: #424242 !important;
+  font-size: 1.2rem !important;
+}
+
+table[id$="ICField130"] table[id^="STDNT_WEEK_SCHD$scroll"] td,
+table[id$="ICField130"] table[id^="STDNT_WEEK_SCHD$scroll"] th {
+  background: #ffffff !important;
+}
+
+table[id$="ICField130"] table[id^="STDNT_WEEK_SCHD$scroll"] .PSLEVEL3GRID,
+table[id$="ICField130"] table[id^="STDNT_WEEK_SCHD$scroll"] td,
+table[id$="ICField130"] table[id^="STDNT_WEEK_SCHD$scroll"] th {
+  border: none !important;
+}
+
+table[id$="ICField130"] .PSLEVEL1GRID > tbody > tr:first-of-type {
+  display: none !important;
+}
+
+table[id$="ICField130"] .PSLEVEL1GRID > tbody > tr {
+  height: 45px !important;
+}
+
+table[id$="ICField130"] .PSLONGEDITBOX {
+  width: unset !important;
+}
+
+table[id$="ICField130"] table[id^="STDNT_WEEK_SCHD$scroll"] .PSGRIDFIRSTCOLUMN {
+  display: none !important;
+}

@@ -6,8 +6,8 @@
   "content_scripts" : [
       {
           "js" : ["init.js"],
-          "css": ["styles.css"],
-          "matches" : ["*://css.adminapps.cornell.edu/*"],
+          "css": ["index.css", "header.css", "core.css"],
+          "matches" : ["*://*.adminapps.cornell.edu/*"],
           "all_frames": true
       }
   ],
