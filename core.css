@@ -5,8 +5,17 @@ border[default] = #eeeeee
 grey[100] = #f5f5f5
 grey[200] = #eeeeee
 
-blue[link] = #004b91
+blue[50] = #EAF0F6
+blue[100] = #f1f5f9
+blue[200] = #e3ebf3
+blue[300] = #80A5C8
+blue[400, brand] = #5587B6
+blue[500, link] = #004b91
 */
+
+* {
+  box-sizing: border-box;
+}
 
 .PSPAGE {
   background: #f5f5f5 !important;
@@ -36,4 +45,52 @@ a:hover {
 
 .PSHYPERLINK {
   text-decoration: none !important;
+}
+
+/* select */
+select {
+  border: 2px solid #eeeeee !important;
+  border-radius: 8px !important;
+  font-size: 0.875rem !important;
+  padding: 0.5rem !important;
+  cursor: pointer !important;
+}
+
+select:hover {
+  border-color: #aac3da !important;
+}
+
+div[id^="win0divDERIVED_SSS_SCL_SSS_GO"] {
+  margin-top: 0.5rem !important;
+}
+
+div[id^="win0divDERIVED_SSS_SCL_SSS_GO"] > a {
+  background: #ffffff !important;
+}
+
+/* button */
+.PSPUSHBUTTON {
+  border: none !important;
+  background: #d5e1ed !important;
+  padding: 0.3rem 0.6rem !important;
+  transition: box-shadow 200ms ease-in-out !important;
+}
+
+a.PSPUSHBUTTON:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+.PSPUSHBUTTON:hover {
+  background: #d5e1ed !important;
+}
+
+.PSPUSHBUTTON > span > input {
+  color: #004b91 !important;
+  font-size: 0.875rem !important;
+  cursor: pointer !important;
+}
+
+/* go to top icon */
+img[alt="Go to top icon"] {
+  display: none !important;
 }

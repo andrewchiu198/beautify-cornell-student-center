@@ -19,6 +19,7 @@
   color: #424242 !important;
   background: #ffffff !important;
   border: none !important;
+  padding: 0 !important;
 }
 
 /* prevent a element height clipping */
@@ -49,6 +50,14 @@ table[id$="ICField53"] > tbody > tr > td > div {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* section title */
+table[id$="ICField279"] #win0divDERIVED_SSS_SCL_SS_ACAD_INFO_LINKGP,
+table[id$="ICField279"] #win0divDERIVED_SSS_SCL_SS_MNG_FIN_LINKGP,
+table[id$="ICField279"] #win0divDERIVED_SSS_SCL_SSS_PERSONAL_INFOGP {
+  font-size: 2.2rem !important;
+  padding: 1rem 0 !important;
+}
+
 /* RHS column table */
 /* TODO: remove first column in all table rows */
 
@@ -75,17 +84,7 @@ table[id$="ICField53"] .PSLEVEL1SCROLLAREAHEADER {
 }
 
 /* academics section */
-table[id$="ICField279"] #win0divDERIVED_SSS_SCL_SS_ACAD_INFO_LINKGP,
-table[id$="ICField279"] #win0divDERIVED_SSS_SCL_SS_MNG_FIN_LINKGP,
-table[id$="ICField279"] #win0divDERIVED_SSS_SCL_SSS_PERSONAL_INFOGP {
-  font-size: 2.2rem !important;
-}
-
 table[id$="ICField279"] #win0divDERIVED_SSS_SCL_GROUP1 {
-  display: none !important;
-}
-
-table[id$="ICField279"] table[id$="ICField281"] {
   display: none !important;
 }
 
@@ -138,4 +137,24 @@ table[id$="ICField130"] .PSLONGEDITBOX {
 
 table[id$="ICField130"] table[id^="STDNT_WEEK_SCHD$scroll"] .PSGRIDFIRSTCOLUMN {
   display: none !important;
+}
+
+/* finances section */
+table[id$="ICField200"] .PSGROUPBOXLABEL {
+  display: none !important;
+}
+
+table[id$="ICField200"] > tbody > tr:nth-of-type(1),
+table[id$="ICField200"] > tbody > tr:nth-of-type(3) {
+  display: none !important;
+}
+
+#win0divSSF_SS_DERIVED_FLAG1 > table {
+  border: none !important;
+}
+
+#win0divSSF_SS_DERIVED_FLAG1 {
+  border: 2px solid #eeeeee !important;
+  border-radius: 8px !important;
+  padding: 0.5rem !important;
 }
