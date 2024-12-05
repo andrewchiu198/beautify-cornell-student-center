@@ -94,3 +94,14 @@ a.PSPUSHBUTTON:hover {
 img[alt="Go to top icon"] {
   display: none !important;
 }
+
+table[id$="ICField130"] > tbody > tr > td > div[id^="win0divSTDNT_WEEK_SCHD"] {
+  width: 350px !important;
+  border-width: 2px !important;
+  border-style: solid !important;
+  border-color: rgb(238, 238, 238) !important;
+  border-image: initial !important;
+  border-radius: 8px !important;
+  padding: 5px !important;
+  margin: 20px;
+}
