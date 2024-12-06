@@ -3,9 +3,15 @@
   "version": "0.0.1",
   "manifest_version": 3,
   "description" : "Beautifies Cornell's Student Center",
+  "web_accessible_resources": [
+    {
+      "resources": ["images/Right-Arrow.png"],
+      "matches": ["<all_urls>"]
+    }
+  ],
   "content_scripts" : [
       {
-          "js" : ["init.js"],
+          "js" : ["init.js", "content.js"],
           "css": ["index.css", "header.css", "core.css"],
           "matches" : ["*://*.peoplesoft.cornell.edu/*"],
           "all_frames": true
@@ -20,6 +26,7 @@
         "default_icon": "icon48.png",
         "default_title": "Beautify Student Center"
     },
+    
   "background": {
     "service_worker": "background.js"
   },

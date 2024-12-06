@@ -47,6 +47,12 @@ a:hover {
   text-decoration: none !important;
 }
 
+.PSHYPERLINK:link {
+  line-height: 1.5 !important;
+  background-color: transparent !important;
+  color: #2a6da8 !important;
+}
+
 /* select */
 select {
   border: 2px solid #eeeeee !important;
@@ -104,4 +110,59 @@ table[id$="ICField130"] > tbody > tr > td > div[id^="win0divSTDNT_WEEK_SCHD"] {
   border-radius: 8px !important;
   padding: 5px !important;
   margin: 20px;
+}
+
+/* Makes Contact Information not ugly brown */
+.PSLEVEL1GRIDLABEL, .PSLEVEL2GRIDLABEL, .PSLEVEL3GRIDLABEL {
+  color: rgb(58 83 141) !important;
+}
+
+/* Gets rid of white square at top right*/
+#pthdr2navbarlinks a.headerbutton {
+  background-color: transparent !important;
+}
+
+/* Gets rid of white square at top left*/
+#classicbackbuttonlayout > #classicbackbuttoncontainer > .ps-button-wrapper > .ps-button {
+  background-color: transparent !important;
+}
+
+.psc_form-xlarge #pagetitleheader {
+  font-size: 18.5px !important;
+
+}
+
+/* Tabs */ 
+.PTGRIDTAB a span, #PSTAB a span {
+  all: unset !important;
+  font-size: small !important;
+  padding: 7px 20px !important;
+  margin: 2px 2px !important;
+  border-radius: 5px !important;
+  background: rgb(51, 102, 153) !important;
+  color: #ffffff !important;
+  display: inline-block !important;
+  line-height: 1.5 !important;
+  white-space: nowrap !important;
+}
+
+#PSTAB a, #PSTABNBO a {
+  border-bottom: none !important;
+}
+
+.PSBOTTOMLINE {
+  background: none !important;
+}
+
+.PABACKGROUNDINVISIBLE, .PAFRAMELEVEL1NBO, .PAFRAMELEVEL2NBO, .PAFRAMELEVEL3NBO, .PAGROUPBOXLEVEL1NBO, .PAGROUPBOXLEVEL2NBO, .PAGROUPBOXLEVEL3NBO, .PSFRAMECONFIRMNBO, .PSFRAMENBO, .PSLEVEL1GRIDNBO, .PSLEVEL2GRIDNBO, .PSLEVEL3GRIDNBO, .PTPAGELET, .PTS_NOBORDER {
+  border-left-style: none !important;
+}
+
+.PSGROUPBOXWBO .PSGROUPBOXLABEL {
+  padding: 8px 10px !important;
+  background: transparent !important;
+}
+
+.PTCPGROUPBOXMINPADDINGWBO, .PSGROUPBOXWBO {
+  border-radius: 10px !important;
 }
