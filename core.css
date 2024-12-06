@@ -132,6 +132,21 @@ table[id$="ICField130"] > tbody > tr > td > div[id^="win0divSTDNT_WEEK_SCHD"] {
 
 }
 
+.PSGROUPBOXWBO .PSGROUPBOXLABEL {
+  padding: 8px 10px !important;
+  background: transparent !important;
+}
+
+.PSGROUPBOXLABEL {
+  font-size: 12pt !important;
+}
+
+.PTCPGROUPBOXMINPADDINGWBO, .PSGROUPBOXWBO {
+  border-radius: 10px !important;
+}
+
+
+
 /* Tabs */ 
 .PTGRIDTAB a span, #PSTAB a span {
   all: unset !important;
@@ -156,13 +171,4 @@ table[id$="ICField130"] > tbody > tr > td > div[id^="win0divSTDNT_WEEK_SCHD"] {
 
 .PABACKGROUNDINVISIBLE, .PAFRAMELEVEL1NBO, .PAFRAMELEVEL2NBO, .PAFRAMELEVEL3NBO, .PAGROUPBOXLEVEL1NBO, .PAGROUPBOXLEVEL2NBO, .PAGROUPBOXLEVEL3NBO, .PSFRAMECONFIRMNBO, .PSFRAMENBO, .PSLEVEL1GRIDNBO, .PSLEVEL2GRIDNBO, .PSLEVEL3GRIDNBO, .PTPAGELET, .PTS_NOBORDER {
   border-left-style: none !important;
-}
-
-.PSGROUPBOXWBO .PSGROUPBOXLABEL {
-  padding: 8px 10px !important;
-  background: transparent !important;
-}
-
-.PTCPGROUPBOXMINPADDINGWBO, .PSGROUPBOXWBO {
-  border-radius: 10px !important;
 }
