@@ -141,7 +141,7 @@ table[id$="ICField130"] > tbody > tr > td > div[id^="win0divSTDNT_WEEK_SCHD"] {
 
 /*Remove blank table from right of weekly schedule*/
 #win0divDERIVED_CLASS_S_WEEKLY_SCHED_LABEL table {
-  width: 0px !important;
+  width: 700px !important;
 }
 
 /* Tabs */ 
