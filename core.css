@@ -169,3 +169,71 @@ table[id$="ICField130"] > tbody > tr > td > div[id^="win0divSTDNT_WEEK_SCHD"] {
 .PABACKGROUNDINVISIBLE, .PAFRAMELEVEL1NBO, .PAFRAMELEVEL2NBO, .PAFRAMELEVEL3NBO, .PAGROUPBOXLEVEL1NBO, .PAGROUPBOXLEVEL2NBO, .PAGROUPBOXLEVEL3NBO, .PSFRAMECONFIRMNBO, .PSFRAMENBO, .PSLEVEL1GRIDNBO, .PSLEVEL2GRIDNBO, .PSLEVEL3GRIDNBO, .PTPAGELET, .PTS_NOBORDER {
   border-left-style: none !important;
 }
+
+/* --- Figma-style: Global --- */
+html, body {
+  font-family: "Inter", "Segoe UI", sans-serif !important;
+  background-color: #f5f5f5 !important;
+  color: #333 !important;
+}
+
+/* --- Figma-style: Weekly schedule container --- */
+table[id$="ICField130"] > tbody > tr > td > div[id^="win0divSTDNT_WEEK_SCHD"] {
+  width: 100% !important;
+  max-width: 800px;
+  margin: 20px auto !important;
+  padding: 16px !important;
+  background-color: #ffffff !important;
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 12px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04) !important;
+}
+
+/* --- Figma-style: Class blocks (override inline styles) --- */
+.PSLEVEL3GRIDODDROW[style*="background-color"] {
+  background-color: #5587B6 !important;
+  color: #ffffff !important;
+  font-weight: 500 !important;
+  font-size: 0.875rem !important;
+  line-height: 1.3 !important;
+  text-align: center !important;
+  border-radius: 8px !important;
+  padding: 6px !important;
+}
+
+/* --- Figma-style: Time label column --- */
+.PSLEVEL3GRIDODDROW > span {
+  font-weight: 500 !important;
+  font-size: 0.8rem !important;
+  color: #333 !important;
+}
+
+/* --- Figma-style: Buttons --- */
+.PSPUSHBUTTON {
+  background-color: #80A5C8 !important;
+  color: #ffffff !important;
+  font-size: 0.875rem !important;
+  padding: 0.4rem 1rem !important;
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+  transition: background-color 0.2s ease !important;
+}
+.PSPUSHBUTTON:hover {
+  background-color: #5587B6 !important;
+}
+
+/* --- Figma-style: Tabs --- */
+.PTGRIDTAB a span, #PSTAB a span {
+  background-color: #EAF0F6 !important;
+  color: #004b91 !important;
+  font-weight: 600 !important;
+  padding: 6px 16px !important;
+  border-radius: 20px !important;
+  font-size: 0.875rem !important;
+  margin: 0 4px !important;
+  transition: background 0.2s ease !important;
+}
+.PTGRIDTAB a span:hover, #PSTAB a span:hover {
+  background-color: #d1e0ee !important;
+}
